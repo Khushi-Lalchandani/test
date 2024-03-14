@@ -549,6 +549,14 @@ body {
     display: none;
   }
 }
+.activity::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+.activity::-webkit-scrollbar-thumb {
+  background: #fca424;
+}
+
 .activity-header {
   font-size: 2rem;
   color: #bbb;
